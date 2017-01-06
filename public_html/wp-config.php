@@ -32,6 +32,19 @@ defined( 'WP_SITEURL' ) or define( 'WP_SITEURL', 'http://www.gozma14.local/wp' )
 
 /*
  * --------------------------------------------------------------------------------
+ * Custom Content Directory
+ * --------------------------------------------------------------------------------
+ *
+ * Change these to different content directory/url location.
+ *
+ */
+
+defined( 'WP_CONTENT_DIR' ) or define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
+defined( 'WP_CONTENT_URL' ) or define( 'WP_CONTENT_URL', WP_HOME . '/content' );
+
+
+/*
+ * --------------------------------------------------------------------------------
  * Authentication Unique Keys and Salts
  * --------------------------------------------------------------------------------
  *
