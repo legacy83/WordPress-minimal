@@ -6,12 +6,11 @@
  * Author: Thiago Senna
  * Author URI: http://thremes.com.br
  *
- * @package   Site\Config
+ * @package   site\muplugins
  * @author    Thiago Senna <thiago@thremes.com.br>
- * @copyright Copyright (c) 2016, Thiago Senna
+ * @copyright Copyright (c) 2017, Thiago Senna
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
-
 namespace site\muplugins;
 
 /* Register Theme Directory
