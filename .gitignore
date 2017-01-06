@@ -4,3 +4,17 @@ playbook.retry
 vendor
 public_html/wp
 public_html/.htaccess
+
+public_html/content/*
+!public_html/content/mu-plugins
+!public_html/content/plugins
+!public_html/content/themes
+
+public_html/content/mu-plugins/*
+!public_html/content/mu-plugins/index.php
+
+public_html/content/plugins/*
+!public_html/content/plugins/index.php
+
+public_html/content/themes/*
+!public_html/content/themes/index.php

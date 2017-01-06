@@ -1,6 +1,6 @@
 {
-  "name": "trsenna/localWP",
-  "description": "Easily vagrant up my WordPress stack locally.",
+  "name": "trsenna/WordPress-minimal",
+  "description": "WordPress Minimal Project Template",
   "type": "project",
   "license": "GPL-2.0+",
   "authors": [
@@ -10,8 +10,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/trsenna/localWP/issues",
-    "source": "https://github.com/trsenna/localWP"
+    "issues": "https://github.com/trsenna/WordPress-minimal/issues",
+    "source": "https://github.com/trsenna/WordPress-minimal"
   },
   "repositories": [
     {
@@ -24,24 +24,23 @@
     }
   ],
   "require": {
-    "php": ">=5.3.2",
+    "php": ">=5.5.9",
     "johnpbloch/wordpress": ">=4.7",
     "wpackagist-plugin/regenerate-thumbnails": ">=2.2.6",
-    "wpackagist-plugin/wordpress-importer": ">=0.6.3",
-    "wpackagist-theme/twentysixteen": ">=1.3"
+    "wpackagist-plugin/wordpress-importer": ">=0.6.3"
   },
   "require-dev": {
     "trsenna/gozma14": "1.0.0"
   },
   "extra": {
     "installer-paths": {
-      "public_html/wp/wp-content/mu-plugins/{$name}/": [
+      "public_html/content/mu-plugins/{$name}/": [
         "type:wordpress-muplugin"
       ],
-      "public_html/wp/wp-content/plugins/{$name}/": [
+      "public_html/content/plugins/{$name}/": [
         "type:wordpress-plugin"
       ],
-      "public_html/wp/wp-content/themes/{$name}/": [
+      "public_html/content/themes/{$name}/": [
         "type:wordpress-theme"
       ]
     },
