@@ -1,0 +1,6 @@
+.idea
+.vagrant
+playbook.retry
+vendor
+public_html/wp
+public_html/.htaccess
