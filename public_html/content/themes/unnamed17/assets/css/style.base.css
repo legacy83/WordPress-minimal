@@ -226,216 +226,143 @@ a:active {
     outline: 0;
 }
 
-/*!*--------------------------------------------------------------*/
-/*# Alignments*/
-/*--------------------------------------------------------------*!*/
-/*.alignleft {*/
-/*display: inline;*/
-/*float: left;*/
-/*margin-right: 1.5em;*/
-/*}*/
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
 
-/*.alignright {*/
-/*display: inline;*/
-/*float: right;*/
-/*margin-left: 1.5em;*/
-/*}*/
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
 
-/*.aligncenter {*/
-/*clear: both;*/
-/*display: block;*/
-/*margin-left: auto;*/
-/*margin-right: auto;*/
-/*}*/
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/*!*--------------------------------------------------------------*/
-/*# Clearings*/
-/*--------------------------------------------------------------*!*/
-/*.clear:before,*/
-/*.clear:after,*/
-/*.entry-content:before,*/
-/*.entry-content:after,*/
-/*.comment-content:before,*/
-/*.comment-content:after,*/
-/*.site-header:before,*/
-/*.site-header:after,*/
-/*.site-content:before,*/
-/*.site-content:after,*/
-/*.site-footer:before,*/
-/*.site-footer:after {*/
-/*content: "";*/
-/*display: table;*/
-/*table-layout: fixed;*/
-/*}*/
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
 
-/*.clear:after,*/
-/*.entry-content:after,*/
-/*.comment-content:after,*/
-/*.site-header:after,*/
-/*.site-content:after,*/
-/*.site-footer:after {*/
-/*clear: both;*/
-/*}*/
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+    clear: both;
+}
 
-/*!*--------------------------------------------------------------*/
-/*# Widgets*/
-/*--------------------------------------------------------------*!*/
-/*.widget {*/
-/*margin: 0 0 1.5em;*/
-/*}*/
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
 
-/*!* Make sure select elements fit in widgets. *!*/
-/*.widget select {*/
-/*max-width: 100%;*/
-/*}*/
+embed,
+iframe,
+object {
+    max-width: 100%;
+}
 
-/*!*--------------------------------------------------------------*/
-/*# Content*/
-/*--------------------------------------------------------------*!*/
-/*!*--------------------------------------------------------------*/
-/*## Posts and pages*/
-/*--------------------------------------------------------------*!*/
-/*.sticky {*/
-/*display: block;*/
-/*}*/
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+}
 
-/*.hentry {*/
-/*margin: 0 0 1.5em;*/
-/*}*/
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/*.byline,*/
-/*.updated:not(.published) {*/
-/*display: none;*/
-/*}*/
+.wp-caption .wp-caption-text {
+    margin: 0.8075em 0;
+}
 
-/*.single .byline,*/
-/*.group-blog .byline {*/
-/*display: inline;*/
-/*}*/
+.wp-caption-text {
+    text-align: center;
+}
 
-/*.page-content,*/
-/*.entry-content,*/
-/*.entry-summary {*/
-/*margin: 1.5em 0 0;*/
-/*}*/
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+    margin-bottom: 1.5em;
+}
 
-/*.page-links {*/
-/*clear: both;*/
-/*margin: 0 0 1.5em;*/
-/*}*/
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
 
-/*!*--------------------------------------------------------------*/
-/*## Comments*/
-/*--------------------------------------------------------------*!*/
-/*.comment-content a {*/
-/*word-wrap: break-word;*/
-/*}*/
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
 
-/*.bypostauthor {*/
-/*display: block;*/
-/*}*/
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
 
-/*!*--------------------------------------------------------------*/
-/*# Infinite scroll*/
-/*--------------------------------------------------------------*!*/
-/*!* Globally hidden elements when Infinite Scroll is supported and in use. *!*/
-/*.infinite-scroll .posts-navigation, !* Older / Newer Posts Navigation (always hidden) *!*/
-/*.infinite-scroll.neverending .site-footer { !* Theme Footer (when set to scrolling) *!*/
-/*display: none;*/
-/*}*/
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
 
-/*!* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. *!*/
-/*.infinity-end.neverending .site-footer {*/
-/*display: block;*/
-/*}*/
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
 
-/*!*--------------------------------------------------------------*/
-/*# Media*/
-/*--------------------------------------------------------------*!*/
-/*.page-content .wp-smiley,*/
-/*.entry-content .wp-smiley,*/
-/*.comment-content .wp-smiley {*/
-/*border: none;*/
-/*margin-bottom: 0;*/
-/*margin-top: 0;*/
-/*padding: 0;*/
-/*}*/
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
 
-/*!* Make sure embeds and iframes fit their containers. *!*/
-/*embed,*/
-/*iframe,*/
-/*object {*/
-/*max-width: 100%;*/
-/*}*/
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
 
-/*!*--------------------------------------------------------------*/
-/*## Captions*/
-/*--------------------------------------------------------------*!*/
-/*.wp-caption {*/
-/*margin-bottom: 1.5em;*/
-/*max-width: 100%;*/
-/*}*/
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
 
-/*.wp-caption img[class*="wp-image-"] {*/
-/*display: block;*/
-/*margin-left: auto;*/
-/*margin-right: auto;*/
-/*}*/
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
 
-/*.wp-caption .wp-caption-text {*/
-/*margin: 0.8075em 0;*/
-/*}*/
-
-/*.wp-caption-text {*/
-/*text-align: center;*/
-/*}*/
-
-/*!*--------------------------------------------------------------*/
-/*## Galleries*/
-/*--------------------------------------------------------------*!*/
-/*.gallery {*/
-/*margin-bottom: 1.5em;*/
-/*}*/
-
-/*.gallery-item {*/
-/*display: inline-block;*/
-/*text-align: center;*/
-/*vertical-align: top;*/
-/*width: 100%;*/
-/*}*/
-
-/*.gallery-columns-2 .gallery-item {*/
-/*max-width: 50%;*/
-/*}*/
-
-/*.gallery-columns-3 .gallery-item {*/
-/*max-width: 33.33%;*/
-/*}*/
-
-/*.gallery-columns-4 .gallery-item {*/
-/*max-width: 25%;*/
-/*}*/
-
-/*.gallery-columns-5 .gallery-item {*/
-/*max-width: 20%;*/
-/*}*/
-
-/*.gallery-columns-6 .gallery-item {*/
-/*max-width: 16.66%;*/
-/*}*/
-
-/*.gallery-columns-7 .gallery-item {*/
-/*max-width: 14.28%;*/
-/*}*/
-
-/*.gallery-columns-8 .gallery-item {*/
-/*max-width: 12.5%;*/
-/*}*/
-
-/*.gallery-columns-9 .gallery-item {*/
-/*max-width: 11.11%;*/
-/*}*/
-
-/*.gallery-caption {*/
-/*display: block;*/
-/*}*/
+.gallery-caption {
+    display: block;
+}
