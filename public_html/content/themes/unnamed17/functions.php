@@ -10,4 +10,5 @@ namespace site\themes\unnamed17;
 // load theme files
 call_user_func(function () {
     require_once(dirname(__FILE__) . '/includes/functions.php');
+    require_once(dirname(__FILE__) . '/includes/template-tags.php');
 });
