@@ -1,63 +1,60 @@
-/*!*--------------------------------------------------------------*/
-/*# Site Branding*/
-/*--------------------------------------------------------------*!*/
-/*.site-title,*/
-/*.site-description {*/
-/*text-align: center;*/
-/*}*/
+/*--------------------------------------------------------------
+# Site Branding
+--------------------------------------------------------------*/
+.site-title,
+.site-description {
+    margin: 0;
+    padding: 0;
+}
 
-/*.site-title a,*/
-/*.site-description a {*/
-/*color: #656565;*/
-/*display: inline-block;*/
-/*text-decoration: none;*/
-/*}*/
+.site-title {
+    font-size: 32px;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
 
-/*.site-title a:hover,*/
-/*.site-description a:hover {*/
-/*color: #656565;*/
-/*}*/
+.site-title a {
+    color: #656565;
+    text-decoration: none;
+}
 
-/*.site-title {*/
-/*margin: 0 0 14px;*/
-/*}*/
+/*--------------------------------------------------------------
+# Site Info
+--------------------------------------------------------------*/
+.site-info a {
+    color: #656565;
+}
 
-/*.site-description {*/
-/*font-weight: normal;*/
-/*margin: 0;*/
-/*}*/
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.hentry {
+    border-bottom: 4px double #f3f3f3;
+    margin-bottom: 90px;
+    padding-bottom: 30px;
+}
 
-/*!*--------------------------------------------------------------*/
-/*# Site Info*/
-/*--------------------------------------------------------------*!*/
-/*.site-info a {*/
-/*color: #656565;*/
-/*}*/
+.entry-header {
+    margin-bottom: 30px;
+}
 
-/*!*--------------------------------------------------------------*/
-/*# Site Content*/
-/*--------------------------------------------------------------*!*/
-/*.site-content article {*/
-/*border-bottom: 4px double #f3f3f3;*/
-/*margin-bottom: 72px;*/
-/*padding-bottom: 24px;*/
-/*}*/
+.entry-footer {
+    margin-top: 30px;
+}
 
-/*.entry-header {*/
-/*margin-bottom: 24px;*/
-/*}*/
+/*--------------------------------------------------------------
+# Front Page
+--------------------------------------------------------------*/
+.front-page-intro,
+.front-page-marketing {
+    border-bottom: 4px double #f3f3f3;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
 
-/*footer.entry-meta {*/
-/*clear: both;*/
-/*margin-top: 24px;*/
-/*}*/
-
-/*!*--------------------------------------------------------------*/
-/*# Front Page*/
-/*--------------------------------------------------------------*!*/
-/*.front-page-intro,*/
-/*.front-page-marketing {*/
-/*border-bottom: 4px double #ededed;*/
-/*margin-bottom: 72px;*/
-/*padding-bottom: 24px;*/
-/*}*/
+.front-page-marketing {
+    margin-bottom: 90px;
+}
