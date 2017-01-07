@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+# Site Branding
+--------------------------------------------------------------*/
+.site-title,
+.site-description {
+    text-align: center;
+}
+
+.site-title a,
+.site-description a {
+    color: #656565;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.site-title a:hover,
+.site-description a:hover {
+    color: #656565;
+}
+
+.site-title {
+    margin: 0 0 14px;
+}
+
+.site-description {
+    font-weight: normal;
+    margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Site Info
+--------------------------------------------------------------*/
+.site-info a {
+    color: #656565;
+}
+
+/*--------------------------------------------------------------
+# Site Content
+--------------------------------------------------------------*/
+.site-content article {
+    border-bottom: 4px double #f3f3f3;
+    margin-bottom: 72px;
+    padding-bottom: 24px;
+}
+
+.entry-header {
+    margin-bottom: 24px;
+}
+
+footer.entry-meta {
+    clear: both;
+    margin-top: 24px;
+}
+
+/*--------------------------------------------------------------
+# Front Page
+--------------------------------------------------------------*/
+.front-page-intro,
+.front-page-marketing {
+    border-bottom: 4px double #ededed;
+    margin-bottom: 72px;
+    padding-bottom: 24px;
+}
