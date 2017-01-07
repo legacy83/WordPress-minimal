@@ -1,4 +1,4 @@
-<section class="front-page-marketing">
+<div class="front-page-marketing">
     <div class="entry-content">
         <div class="col-wrap col-wrap--2cols">
             <div class="col">
@@ -24,4 +24,4 @@
             </div>
         </div>
     </div><!-- .entry-content -->
-</section><!-- .front-page-marketing -->
+</div><!-- .front-page-marketing -->
