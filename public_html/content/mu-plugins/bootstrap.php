@@ -13,15 +13,13 @@
  */
 namespace site\muplugins;
 
-/* Register Theme Directory
-------------------------------------------------------- */
+// register theme directory
 add_action('muplugins_loaded', function () {
     define('WP_DEFAULT_THEME', 'twentytwelve');
     register_theme_directory(ABSPATH . 'wp-content/themes/');
 });
 
-/* Disallow Site Changes
-------------------------------------------------------- */
+// disallow site changes
 add_action('plugins_loaded', function () {
     defined('DISALLOW_FILE_EDIT') or define('DISALLOW_FILE_EDIT', TRUE);
     defined('DISALLOW_FILE_MODS') or define('DISALLOW_FILE_MODS', TRUE);

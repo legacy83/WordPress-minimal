@@ -7,8 +7,7 @@
  */
 namespace site\plugins\functionality;
 
-/* Plugins Loaded
-------------------------------------------------------- */
+// plugins loaded
 add_action('plugins_loaded', function () {
     // ...
 });

@@ -7,8 +7,7 @@
  */
 namespace site\plugins\functionality;
 
-/* Jetpack Developer Friendly by default
-------------------------------------------------------- */
+// jetpack developer friendly by default
 add_action('plugins_loaded', function () {
     defined('JETPACK_DEV_DEBUG') or define('JETPACK_DEV_DEBUG', TRUE);
     add_filter('jetpack_get_default_modules', '__return_empty_array', 99);

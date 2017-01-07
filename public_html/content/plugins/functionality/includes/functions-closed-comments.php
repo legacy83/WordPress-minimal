@@ -7,8 +7,7 @@
  */
 namespace site\plugins\functionality;
 
-/* Closed Comments and Pings
-------------------------------------------------------- */
+// closed comments and pings
 add_action('plugins_loaded', function () {
     add_filter('comments_open', '__return_false');
     add_filter('pings_open', '__return_false');
