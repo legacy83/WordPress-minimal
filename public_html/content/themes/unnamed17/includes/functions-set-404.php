@@ -16,7 +16,8 @@ add_action('template_redirect', function () {
     global $wp_query;
 
     if (is_404()) :
-    elseif (is_front_page()) :
+    elseif (is_front_page()):
+    elseif (is_home() && is_front_page()) :
     elseif (is_page()) :
     else :
 
