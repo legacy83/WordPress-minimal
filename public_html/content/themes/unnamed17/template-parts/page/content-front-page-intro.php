@@ -1,6 +1,6 @@
 <section class="front-page-intro">
     <header class="entry-header">
-        <h1 class="entry-title">My Custom Theme</h1>
+        <h1 class="entry-title">Unnamed17 Theme</h1>
     </header>
 
     <div class="entry-content">
