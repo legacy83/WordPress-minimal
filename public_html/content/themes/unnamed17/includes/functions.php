@@ -23,21 +23,3 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('unnamed17-style', get_stylesheet_uri());
     wp_enqueue_script('unnamed17-global', get_template_directory_uri() . '/assets/js/global.js', array('jquery'), false, true);
 });
-
-// force error 404 for some templates
-add_action('template_redirect', function () {
-    /**
-     * @var $wp_query \WP_Query
-     */
-    global $wp_query;
-
-    if (is_404()) :
-    elseif (is_front_page()) :
-    elseif (is_page()) :
-    else :
-
-        $wp_query->set_404();
-        status_header(404);
-
-    endif;
-});
