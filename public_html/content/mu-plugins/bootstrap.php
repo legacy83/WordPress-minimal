@@ -17,11 +17,11 @@ namespace site\muplugins;
 add_action('muplugins_loaded', function () {
     define('WP_DEFAULT_THEME', 'twentytwelve');
     register_theme_directory(ABSPATH . 'wp-content/themes/');
-});
+}, 0);
 
 // disallow site changes
-add_action('plugins_loaded', function () {
-    defined('DISALLOW_FILE_EDIT') or define('DISALLOW_FILE_EDIT', TRUE);
-    defined('DISALLOW_FILE_MODS') or define('DISALLOW_FILE_MODS', TRUE);
-    defined('AUTOMATIC_UPDATER_DISABLED') or define('AUTOMATIC_UPDATER_DISABLED', TRUE);
-});
+add_action('muplugins_loaded', function () {
+    define('DISALLOW_FILE_EDIT', TRUE);
+    define('DISALLOW_FILE_MODS', TRUE);
+    define('AUTOMATIC_UPDATER_DISABLED', TRUE);
+}, 0);

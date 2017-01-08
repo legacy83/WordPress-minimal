@@ -23,10 +23,10 @@ if (file_exists(dirname(__FILE__) . '/wp-config.local.php')) {
  *
  */
 
-defined('DB_NAME') or define('DB_NAME', 'www');
-defined('DB_USER') or define('DB_USER', 'www');
-defined('DB_PASSWORD') or define('DB_PASSWORD', 'www@secret');
-defined('DB_HOST') or define('DB_HOST', 'localhost');
+define('DB_NAME', 'www');
+define('DB_USER', 'www');
+define('DB_PASSWORD', 'www@secret');
+define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
@@ -40,8 +40,8 @@ define('DB_COLLATE', '');
  *
  */
 
-defined('WP_HOME') or define('WP_HOME', 'http://www.gozma14.local');
-defined('WP_SITEURL') or define('WP_SITEURL', 'http://www.gozma14.local/wp');
+define('WP_HOME', 'http://www.gozma14.local');
+define('WP_SITEURL', 'http://www.gozma14.local/wp');
 
 
 /*
@@ -53,8 +53,8 @@ defined('WP_SITEURL') or define('WP_SITEURL', 'http://www.gozma14.local/wp');
  *
  */
 
-defined('WP_CONTENT_DIR') or define('WP_CONTENT_DIR', dirname(__FILE__) . '/content');
-defined('WP_CONTENT_URL') or define('WP_CONTENT_URL', WP_HOME . '/content');
+define('WP_CONTENT_DIR', dirname(__FILE__) . '/content');
+define('WP_CONTENT_URL', WP_HOME . '/content');
 
 
 /*
@@ -107,7 +107,7 @@ $table_prefix = 'wp_';
  *
  */
 
-defined('WP_DEBUG') or define('WP_DEBUG', FALSE);
+define('WP_DEBUG', FALSE);
 
 
 /*
