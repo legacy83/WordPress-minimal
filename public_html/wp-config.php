@@ -2,6 +2,20 @@
 
 /*
  * --------------------------------------------------------------------------------
+ * Prefer an alternative base configuration
+ * --------------------------------------------------------------------------------
+ *
+ * Prefer an alternative base configuration beside this one.
+ *
+ */
+
+if (file_exists(dirname(__FILE__) . '/wp-config.local.php')) {
+    require_once(dirname(__FILE__) . '/wp-config.local.php');
+    return;
+}
+
+/*
+ * --------------------------------------------------------------------------------
  * MySQL settings
  * --------------------------------------------------------------------------------
  *
