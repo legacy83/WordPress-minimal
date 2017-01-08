@@ -5,7 +5,7 @@
  * Prefer an alternative base configuration
  * --------------------------------------------------------------------------------
  *
- * Prefer an alternative base configuration beside this one.
+ * Prefer loading an alternative wp-config.local.php file beside this one.
  *
  */
 
