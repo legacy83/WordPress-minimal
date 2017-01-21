@@ -9,7 +9,9 @@
 
     <?php if (get_edit_post_link()) : ?>
         <footer class="entry-footer">
-            <?php \site\themes\unnamed17\edit_link(); ?>
+            <div class="entry-footer__meta">
+                <?php \site\themes\unnamed17\edit_link(); ?>
+            </div>
         </footer><!-- .entry-footer -->
     <?php endif; ?>
 </article><!-- #post-## -->
