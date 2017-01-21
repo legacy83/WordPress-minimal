@@ -24,4 +24,3 @@ public_html/content/plugins/*
 public_html/content/themes/*
 !public_html/content/themes/index.php
 !public_html/content/themes/unnamed17
-!public_html/content/themes/unnamed17-child

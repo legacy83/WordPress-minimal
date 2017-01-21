@@ -3,8 +3,7 @@
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
 
-            <?php get_template_part('template-parts/page/content', 'front-page-intro'); ?>
-            <?php get_template_part('template-parts/page/content', 'front-page-marketing'); ?>
+            <?php get_template_part('template-parts/post/content', 'none'); ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->

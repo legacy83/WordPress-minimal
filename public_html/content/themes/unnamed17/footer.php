@@ -1,7 +1,9 @@
     </div><!-- #content -->
 
     <footer id="colophon" class="site-footer" role="contentinfo">
-        <?php get_template_part('template-parts/footer/site', 'info'); ?>
+        <div class="site-footer__inner">
+            <?php get_template_part('template-parts/footer/site', 'info'); ?>
+        </div>
     </footer><!-- #colophon -->
 </div><!-- #page -->
 
