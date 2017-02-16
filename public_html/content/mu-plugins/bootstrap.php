@@ -15,7 +15,7 @@ namespace site\muplugins;
 
 // register theme directory
 add_action('muplugins_loaded', function () {
-    define('WP_DEFAULT_THEME', 'unnamed17');
+    define('WP_DEFAULT_THEME', 'twentytwelve');
 }, 0);
 
 // disallow site changes
