@@ -1,0 +1,243 @@
+/**
+ * Theme Name:      Unnamed17
+ * Theme URI:       https://github.com/trsenna/unnamed17
+ * Author:          Thiago Senna
+ * Author URI:      http://thremes.com.br/
+ * Description:     The Unnamed17 starter theme.
+ * Version:         0.1.0
+ * License:         GNU General Public License v2 or later
+ * License URI:     http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * This theme, like WordPress, is licensed under the GPL.
+ * Use it to make something cool, have fun, and share what you've learned with others.
+ */
+@import "assets/css/normalize.css";
+@import "assets/css/style.base.css";
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Elements
+# Navigation
+	## Links
+# Clearings
+# Content
+	## Header
+	## Posts and pages
+	## Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+    color: #656565;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.625;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 36px;
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 30px;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+body {
+    background: #fff;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a,
+a:visited {
+    color: #c3251d;
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #656565;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.site-footer__inner:before,
+.site-footer__inner:after,
+.site-header__inner:before,
+.site-header__inner:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+
+.site-footer__inner:after,
+.site-header__inner:after {
+    clear: both;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+.site-content,
+.site-footer__inner,
+.site-header__inner {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+@media (min-width: 768px) {
+    .site-content,
+    .site-footer__inner,
+    .site-header__inner {
+        max-width: 688px;
+    }
+}
+
+@media (min-width: 992px) {
+    .site-content,
+    .site-footer__inner,
+    .site-header__inner {
+        max-width: 912px;
+    }
+}
+
+.site-content {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.site-header {
+    border-bottom: 1px solid #f3f3f3;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .site-header {
+        text-align: left;
+    }
+}
+
+.site-header__inner {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .site-header__inner {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+}
+
+.site-title {
+    font-size: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.site-title a,
+.site-title a:hover {
+    color: #656565;
+    text-decoration: none;
+}
+
+.site-description {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.site-title,
+.site-description {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.entry-title,
+.page-title {
+    margin: 0 0 10px;
+}
+
+.entry-content > :last-child,
+.page-content > :last-child {
+    margin-bottom: 0;
+}
+
+.entry-footer__meta {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-top: 24px;
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+.site-footer {
+    border-top: 1px solid #f3f3f3;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+    padding: 40px 0;
+    text-align: center;
+}

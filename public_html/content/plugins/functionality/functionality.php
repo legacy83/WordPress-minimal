@@ -1,10 +1,9 @@
 <?php
 /**
  * Plugin Name: Site/Plugins/Functionality
- * Description: The Site/Plugins/Functionality plugin.
- *
  * Author: Thiago Senna
  * Author URI: http://thremes.com.br
+ * Description: The Site/Plugins/Functionality plugin.
  *
  * @package   site\plugins\functionality
  * @author    Thiago Senna <thiago@thremes.com.br>

@@ -27,8 +27,7 @@
     "php": ">=5.5.9",
     "johnpbloch/wordpress": ">=4.7",
     "wpackagist-plugin/regenerate-thumbnails": ">=2.2.6",
-    "wpackagist-plugin/wordpress-importer": ">=0.6.3",
-    "wpackagist-theme/twentytwelve": ">=2.2"
+    "wpackagist-plugin/wordpress-importer": ">=0.6.3"
   },
   "require-dev": {
     "trsenna/gozma14": "1.0.0"

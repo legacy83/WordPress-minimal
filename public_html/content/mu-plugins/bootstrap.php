@@ -1,10 +1,9 @@
 <?php
 /**
  * Plugin Name: Site/MUPlugins/Bootstrap
- * Description: The Site/MUPlugins/Bootstrap plugin.
- *
  * Author: Thiago Senna
  * Author URI: http://thremes.com.br
+ * Description: The Site/MUPlugins/Bootstrap plugin.
  *
  * @package   site\muplugins
  * @author    Thiago Senna <thiago@thremes.com.br>
@@ -15,7 +14,7 @@ namespace site\muplugins;
 
 // register theme directory
 add_action('muplugins_loaded', function () {
-    define('WP_DEFAULT_THEME', 'twentytwelve');
+    define('WP_DEFAULT_THEME', 'unnamed17');
 }, 0);
 
 // disallow site changes
