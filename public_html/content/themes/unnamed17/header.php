@@ -10,7 +10,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-    <?php \unnamed17\skip_to_content(); ?>
+    <?php site\themes\unnamed17\skip_to_content(); ?>
 
     <header id="masthead" class="site-header" role="banner">
         <div class="site-header__inner">

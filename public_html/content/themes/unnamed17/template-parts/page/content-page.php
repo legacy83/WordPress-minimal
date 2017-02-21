@@ -10,7 +10,7 @@
     <?php if (get_edit_post_link()) : ?>
         <footer class="entry-footer">
             <div class="entry-footer__meta">
-                <?php \unnamed17\edit_link(); ?>
+                <?php site\themes\unnamed17\edit_link(); ?>
             </div>
         </footer><!-- .entry-footer -->
     <?php endif; ?>
